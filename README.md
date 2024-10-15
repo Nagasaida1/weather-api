@@ -1,27 +1,55 @@
-# weather-api
-About the Project
-The Weather App is a simple yet powerful web application that provides real-time weather updates for any location. Built using HTML, CSS, and JavaScript, this project showcases my skills in frontend development and API integration.
+Weather App
+A simple weather application built using HTML, CSS, and JavaScript that provides real-time weather updates for any location.
 
-Motivation
-I created this project to learn and demonstrate my understanding of web development concepts, including HTML structure, CSS styling, and JavaScript functionality. I also wanted to explore the use of APIs in web development, specifically the OpenWeatherMap API.
+Features
+Displays current weather conditions, including temperature, humidity, wind speed, and more
+Allows users to search for weather information by city name
+Uses the OpenWeatherMap API to fetch weather data
+Technologies Used
+Frontend: HTML, CSS, JavaScript
+API: OpenWeatherMap
+Icons: Fontawesome
+Getting Started
+To get a local copy up and running, follow these simple steps:
 
-Challenges
-One of the biggest challenges I faced while building this project was handling API requests and parsing the JSON data returned by the OpenWeatherMap API. I also had to ensure that the application was responsive and worked well on different devices and screen sizes.
+Prerequisites
+A modern web browser
+An API key from OpenWeatherMap
+Installation
+Clone the repository:
+bash
 
-What I Learned
-Through this project, I gained hands-on experience with:
+Verify
 
-HTML structure and semantic elements
-CSS styling and responsive design
-JavaScript fundamentals, including DOM manipulation and event listeners
-API integration and data parsing
-Version control using Git and GitHub
-Future Development
-In the future, I plan to add more features to the Weather App, including:
+Open In Editor
+Edit
+Copy code
+git clone https://github.com/your-username/weather-app.git
+Navigate to the project directory:
+bash
 
-Support for multiple languages
-Integration with other APIs for more detailed weather data
-A more comprehensive search function
-A mobile app version of the Weather App
-Conclusion
-The Weather App is a testament to my passion for web development and my ability to learn and adapt to new technologies. I hope that this project inspires others to explore the world of web development and API integration.
+Verify
+
+Open In Editor
+Edit
+Copy code
+cd weather-app
+Change API key for all the js files
+javascript
+
+Verify
+
+Open In Editor
+Edit
+Copy code
+let apiKey = "Your API Key";
+Open index.html in your browser to view the project.
+Usage
+To use the Weather App, simply enter the name of the city in the search bar and press enter. The app will display the current weather conditions, including temperature, humidity, wind speed, and more.
+
+License
+This project is licensed under the MIT License.
+
+Acknowledgments
+OpenWeatherMap API for providing weather data
+Fontawesome for providing icons
